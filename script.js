@@ -61,7 +61,7 @@
 
    function verify(){
     if(firstClick && secondClick){
-        if(firstClick.src === secondClick.src){
+        if(firstClick.content === secondClick.content){
             document.getElementById('para').innerHTML = 'Verified';
 
         }else{
