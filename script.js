@@ -1,5 +1,4 @@
-//your code here
-  const images = [
+   const images = [
     'img1',
     'img2',
     'img3',
@@ -61,7 +60,7 @@
 
    function verify(){
     if(firstClick && secondClick){
-        if(firstClick.content === secondClick.content){
+        if(firstClick.src === secondClick.src){
             document.getElementById('para').innerHTML = 'Verified';
 
         }else{
